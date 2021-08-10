@@ -1,10 +1,14 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import "../index.css";
+import About from "../components/about/About";
+import Intro from "../components/intro/Intro";
+import Portfolio from "../components/portfolio/Portfolio";
+import Topbar from "../components/topbar/Topbar";
+import "./index.scss";
 
 const IndexPage = () => {
   return (
-    <main>
+    <main className='app'>
       <Helmet>
         <link
           href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap'
@@ -12,6 +16,12 @@ const IndexPage = () => {
         />
         <title>Levi Lieberman</title>
       </Helmet>
+      <Topbar />
+      <div className='sections'>
+        <Intro />
+        <Portfolio />
+        <About />
+      </div>
     </main>
   );
 };
