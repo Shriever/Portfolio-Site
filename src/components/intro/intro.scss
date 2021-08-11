@@ -1,0 +1,16 @@
+@import "../../global.scss";
+
+.intro {
+  background: linear-gradient(135deg, #fff, #f8f8f8, #eee, $mainColor);
+  position: relative;
+
+  .header {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, 50%);
+    font-size: 60px;
+    background: none;
+    color: $mainLightColor;
+  }
+}
