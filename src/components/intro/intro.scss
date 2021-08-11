@@ -13,4 +13,26 @@
     background: none;
     color: $mainLightColor;
   }
+
+  .down-arrow {
+    font-size: 47px;
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    animation: arrowBlink 2s infinite;
+  }
+
+  @keyframes arrowBlink {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 }
