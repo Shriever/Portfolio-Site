@@ -1,3 +1,11 @@
+@import "./../../global.scss";
 .portfolio {
-    background: #000;
+  background: $mainLightColor;
+  text-align: center;
+  padding: 25px 0;
+  color: $mainGrey;
+
+  .portfolio-heading {
+    font-size: 58px;
+  }
 }
