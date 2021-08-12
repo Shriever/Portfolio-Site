@@ -2,10 +2,44 @@
 .portfolio {
   background: $mainLightColor;
   text-align: center;
-  padding: 25px 0;
+  padding: 15px 40px;
   color: $mainGrey;
 
   .portfolio-heading {
     font-size: 58px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    color: $mainLightColor;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .card {
+      padding: 15px 23px;
+      border-radius: 5%;
+      height: 300px;
+      width: 250px;
+      border: 1px solid #000;
+      background-color: $mainGrey;
+
+      .card-title {
+        font-size: 23px;
+        margin-bottom: 20px;
+      }
+      .tech-text {
+        margin-bottom: 30px;
+      }
+
+      .link-btn {
+        background-color: $mainLightColor;
+        border-radius: 5%;
+        color: $mainGrey;
+        padding: 0 15px;
+        margin: 5px;
+      }
+    }
   }
 }
