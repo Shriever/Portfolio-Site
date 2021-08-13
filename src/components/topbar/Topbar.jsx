@@ -11,7 +11,7 @@ const Topbar = () => {
             levi.
           </a>
           <a href='#portfolio' className='nav-btn'>
-            Portfolio
+            Projects
           </a>
           <a href='#about' className='nav-btn'>
             About Me
