@@ -14,6 +14,11 @@ const IndexPage = () => {
           href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap'
           rel='stylesheet'
         />
+        <link
+          rel='shortcut icon'
+          href='https://img.icons8.com/ios-glyphs/30/000000/macbook.png'
+          type='image/x-icon'
+        />
         <title>Levi Lieberman</title>
       </Helmet>
       <Topbar />
