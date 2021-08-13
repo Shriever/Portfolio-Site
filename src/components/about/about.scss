@@ -1,0 +1,32 @@
+@import "./../../global.scss";
+
+.about {
+  text-align: center;
+  padding: 15px 40px;
+
+  .header {
+    font-size: 58px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    color: $mainColor;
+  }
+
+  .about-body {
+    height: 60%;
+    width: 60%;
+    background-color: $mainColor;
+    margin: 0 auto;
+    border-radius: 60px;
+    display: flex;
+    // align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px 40px;
+
+    .about-text {
+      color: #fff;
+      font-weight: bold;
+      font-size: 24px;
+    }
+  }
+}
