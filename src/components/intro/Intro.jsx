@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div id='intro' className='intro'>
       <h1 className='header'>
-        Levi Lieberman,
+        Levi Lieberman
         <br />
         Web Developer
       </h1>

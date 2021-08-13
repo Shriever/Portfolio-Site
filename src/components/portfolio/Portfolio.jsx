@@ -10,6 +10,8 @@ const Portfolio = () => {
         live: "https://quizapp.gatsbyjs.io/",
       },
       techUsed: ["ReactJS", "Redux", "Material UI"],
+      description:
+        "Interactive Q&A game that fetches data from two APIs. Get ready for some Chuck Norris action!",
     },
     {
       title: "Compound Interest Calculator",
@@ -18,6 +20,8 @@ const Portfolio = () => {
         live: "https://shriever.github.io/Compound-interest-calculator/",
       },
       techUsed: ["TypeScript", "ReactJS"],
+      description:
+        "As the name suggests, this is a compound interest calculator. Great for projecting potential investment gains or determining the cost of a mortgage.",
     },
     {
       title: "Thought Tracker",
@@ -26,23 +30,38 @@ const Portfolio = () => {
         live: null,
       },
       techUsed: ["Shell", "Python", "SQL"],
+      description:
+        "Become aware of recurring thought patterns with this command line application.",
     },
   ];
   return (
     <div id='portfolio' className='portfolio'>
       <h1 className='portfolio-heading'>Projects</h1>
       <div className='container'>
-        {projects.map(el => {
-          const { title, links, techUsed } = el;
+        {projects.map(project => {
+          const { title, links, techUsed, description } = project;
           return (
             <div className='card'>
               <h3 className='card-title'>{title}</h3>
-              <p className='tech-text'>Tech Used: {techUsed.join(", ")}</p>
+              <p className='description'>{description}</p>
               <div className='links'>
-                <a href={links.live} className='link-btn'>
-                  Live Site
-                </a>
-                <a href={links.github} className='link-btn'>
+              <p className='tech-text'>{techUsed.join(" | ")}</p>
+                {links.live && (
+                  <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href={links.live}
+                    className='link-btn'
+                  >
+                    Live Site
+                  </a>
+                )}
+                <a
+                  target='_blank'
+                  rel='noreferrer'
+                  href={links.github}
+                  className='link-btn link-btn-code'
+                >
                   Code
                 </a>
               </div>

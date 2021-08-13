@@ -8,7 +8,7 @@ const Topbar = () => {
       <div className='wrapper'>
         <div className='left'>
           <a href='#intro' className='logo'>
-            genius.
+            levi.
           </a>
           <a href='#portfolio' className='nav-btn'>
             Portfolio

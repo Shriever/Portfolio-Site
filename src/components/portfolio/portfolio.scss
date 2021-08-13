@@ -9,6 +9,7 @@
     font-size: 58px;
     padding: 20px 0;
     margin-bottom: 40px;
+    color: #fff;
   }
 
   .container {
@@ -18,27 +19,53 @@
     justify-content: space-evenly;
 
     .card {
-      padding: 15px 23px;
+      padding: 25px 23px;
       border-radius: 5%;
-      height: 300px;
-      width: 250px;
+      height: 360px;
+      width: 280px;
       border: 1px solid #000;
-      background-color: $mainGrey;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: 1s all ease-out;
 
       .card-title {
         font-size: 23px;
-        margin-bottom: 20px;
-      }
-      .tech-text {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
       }
 
-      .link-btn {
-        background-color: $mainLightColor;
-        border-radius: 5%;
-        color: $mainGrey;
-        padding: 0 15px;
-        margin: 5px;
+      .description {
+        margin-bottom: 20px;
+      }
+
+      .tech-text {
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+
+      .links {
+        .link-btn {
+          background-color: $mainLightColor;
+          border-radius: 5%;
+          color: $mainGrey;
+          padding: 10px 15px;
+          margin: 5px;
+          display: block;
+          transition: 0.5s all ease;
+
+          &:hover {
+            background-color: lighten($mainLightColor, 60%);
+            color: #000;
+          }
+        }
+        .link-btn-code {
+          background-color: #000;
+          &:hover {
+            background-color: $darkGrey;
+            color: #000;
+          }
+        }
       }
     }
   }
