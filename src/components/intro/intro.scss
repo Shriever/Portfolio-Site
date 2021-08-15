@@ -1,17 +1,33 @@
 @import "../../global.scss";
 
 .intro {
-  background: linear-gradient(135deg, #fff, #f8f8f8, #eee, $mainColor);
+  // background: url("./../../images/white-walls.jpg");
+  // background: linear-gradient(135deg, #fff, #f8f8f8, #eee, $mainColor);
+  background: $mainLightColor;
   position: relative;
+  // background-color: $mainColor;
+  position: relative;
+
+  &::before {
+    content: "";
+    background: url("./../../images/white-walls.jpg") no-repeat center
+      center/cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.3;
+  }
 
   .header {
     position: absolute;
-    top: 35%;
-    left: 20%;
-    transform: translate(-50%, 50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 60px;
     background: none;
-    color: $mainLightColor;
+    color: $mainGrey;
   }
 
   .down-arrow {
@@ -19,7 +35,8 @@
     position: absolute;
     bottom: 17px;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
+    color: $mainGrey;
 
     animation: arrowBlink 2s infinite;
   }

@@ -22,6 +22,7 @@
         font-size: 40px;
         font-weight: bold;
         margin-right: 30px;
+        color: $mainColor;
       }
 
       .nav-btn {
@@ -44,6 +45,7 @@
 
       .nav-link {
         margin: 0 10px;
+        color: $mainLightColor;
 
         & * {
           font-size: 30px;
