@@ -16,6 +16,14 @@ const Topbar = () => {
           <a href='#about' className='nav-btn'>
             About Me
           </a>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://docs.google.com/document/d/1YiSmCrDEDMfRN2xCKjfBGvatOeu8rOuMdgfLqyHkMCM/edit?usp=sharing'
+            className='nav-btn'
+          >
+            Resume
+          </a>
         </div>
         <div className='right'>
           <a
