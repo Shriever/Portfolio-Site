@@ -24,14 +24,14 @@ const Portfolio = () => {
         "As the name suggests, this is a compound interest calculator. Great for projecting potential investment gains or determining the cost of a mortgage.",
     },
     {
-      title: "Thought Tracker",
+      title: "Flash Cards",
       links: {
-        github: "https://github.com/Shriever/Thought-Tracker",
-        live: null,
+        github: "https://github.com/Shriever/Flash-Cards/",
+        live: 'https://shriever.github.io/Flash-Cards/',
       },
-      techUsed: ["Shell", "Python", "SQL"],
+      techUsed: ["HTML", "Scss", "Vanilla JS"],
       description:
-        "Become aware of recurring thought patterns with this command line application.",
+        "Want to quiz yourself for an upcoming test? Try using these flash cards to boost productivity!",
     },
   ];
   return (
