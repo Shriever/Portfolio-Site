@@ -29,7 +29,7 @@ const Portfolio = () => {
         github: "https://github.com/Shriever/Flash-Cards/",
         live: 'https://shriever.github.io/Flash-Cards/',
       },
-      techUsed: ["HTML", "Scss", "Vanilla JS"],
+      techUsed: ["OOP", "Scss", "Vanilla JS"],
       description:
         "Want to quiz yourself for an upcoming test? Try using these flash cards to boost productivity!",
     },
