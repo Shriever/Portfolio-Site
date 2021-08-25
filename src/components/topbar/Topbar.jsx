@@ -8,7 +8,7 @@ const Topbar = () => {
       <div className='wrapper'>
         <div className='left'>
           <a href='#intro' className='logo'>
-            levi.
+            shriever.
           </a>
           <a href='#portfolio' className='nav-btn'>
             Projects
@@ -19,7 +19,7 @@ const Topbar = () => {
           <a
             target='_blank'
             rel='noreferrer'
-            href='https://docs.google.com/document/d/1YiSmCrDEDMfRN2xCKjfBGvatOeu8rOuMdgfLqyHkMCM/edit?usp=sharing'
+            href='https://docs.google.com/document/d/1BbIjfUyQA9Dx--r-cLmBr6IM4N15xm6EzyK_R1MIbkU/edit?usp=sharing'
             className='nav-btn'
           >
             Resume

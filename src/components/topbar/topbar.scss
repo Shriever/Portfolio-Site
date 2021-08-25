@@ -42,7 +42,6 @@
       display: flex;
       align-items: center;
 
-
       .nav-link {
         margin: 0 10px;
         color: $mainLightColor;
@@ -52,5 +51,10 @@
         }
       }
     }
+  }
+}
+@media screen and (max-width: 668px) {
+  .nav-btn {
+    display: none !important;
   }
 }

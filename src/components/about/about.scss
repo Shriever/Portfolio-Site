@@ -21,12 +21,25 @@
     // align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 30px 40px;
+    padding: 20px 35px;
 
     .about-text {
       color: #fff;
       font-weight: bold;
       font-size: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about {
+    .about-body {
+      width: 90%;
+      height: 70%;
+      padding: 20px 20px;
+      .about-text {
+        font-size: 15px;
+      }
     }
   }
 }

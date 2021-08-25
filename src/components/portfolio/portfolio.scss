@@ -70,3 +70,11 @@
     }
   }
 }
+@media screen and (max-width: 769px){
+  .container {
+    flex-direction: column;
+    .card {
+      margin: 1rem 0;
+    }
+  }
+}
