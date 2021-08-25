@@ -70,11 +70,14 @@
     }
   }
 }
-@media screen and (max-width: 769px){
-  .container {
-    flex-direction: column;
-    .card {
-      margin: 1rem 0;
+@media screen and (max-width: 769px) {
+  .portfolio {
+    height: auto !important;
+    .container {
+      flex-direction: column;
+      .card {
+        margin: 1rem 0;
+      }
     }
   }
 }

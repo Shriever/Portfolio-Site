@@ -24,7 +24,7 @@ a {
     position: relative;
     top: 70px;
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     scrollbar-width: none; // firefox
     &::-webkit-scrollbar {
       display: none;
