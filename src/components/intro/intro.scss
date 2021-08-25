@@ -24,7 +24,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-43%, -50%);
     font-size: 60px;
     background: none;
     color: $mainGrey;
@@ -50,6 +50,16 @@
     }
     100% {
       transform: translateY(0px);
+    }
+  }
+}
+@media screen and (max-width: 678px) {
+  .intro {
+    .header {
+      transform: translate(-50%, -50%);
+    }
+    .down-arrow {
+      left: 45%;
     }
   }
 }

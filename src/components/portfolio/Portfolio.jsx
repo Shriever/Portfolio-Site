@@ -9,7 +9,7 @@ const Portfolio = () => {
         github: "https://github.com/Shriever/Quiz-App",
         live: "https://quizapp.gatsbyjs.io/",
       },
-      techUsed: ["ReactJS", "Redux", "Material UI"],
+      techUsed: ["ReactJS", "Redux", "Material-UI"],
       description:
         "Interactive Q&A game that fetches data from two APIs. Get ready for some Chuck Norris action!",
     },
