@@ -13,7 +13,7 @@ const About = () => {
           technology.
         </p>
         <p className='about-text'>
-          I have taken a number of online courses including Harvard's CS50 and
+          I have taken various online courses including Harvard's CS50 and
           Data Structures &amp; Algorithms on Udemy. Now I'm looking to meet
           great people in the tech space and take my skills to the next level.
         </p>
