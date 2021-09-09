@@ -38,10 +38,10 @@ const Portfolio = () => {
     <div id='portfolio' className='portfolio'>
       <h1 className='portfolio-heading'>Projects</h1>
       <div className='container'>
-        {projects.map(project => {
+        {projects.map((project, idx) => {
           const { title, links, techUsed, description } = project;
           return (
-            <div className='card'>
+            <div key={idx} className='card'>
               <h3 className='card-title'>{title}</h3>
               <p className='description'>{description}</p>
               <div className='links'>
