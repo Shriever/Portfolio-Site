@@ -21,7 +21,7 @@ const Portfolio = () => {
       },
       techUsed: ['Apollo-GraphQL', 'PERN', 'TypeScript', 'tailwindCSS'],
       description:
-        "Up, down, back and forth. Shuffle these cards, it's not a chore.",
+        'NiggunDrive is a platform for exploring the world of traditional jewish songs A.K.A Niggunim',
     },
     {
       title: 'Compound Interest Calculator',
