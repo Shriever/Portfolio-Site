@@ -4,34 +4,34 @@ import "./portfolio.scss";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Shuffle",
+      title: 'Quiz App',
       links: {
-        github: "https://github.com/Shriever/shuffle",
-        live: "https://shuffle.gatsbyjs.io/",
+        github: 'https://github.com/Shriever/Quiz-App',
+        live: 'https://quizapp.gatsbyjs.io/',
       },
-      techUsed: ["React", "Material-UI", "TypeScript"],
+      techUsed: ['React', 'Redux', 'Material-UI'],
+      description:
+        'Interactive Q&A game that fetches data from two APIs. Get ready for some Chuck Norris action!',
+    },
+    {
+      title: 'NiggunDrive',
+      links: {
+        github: 'https://github.com/Shriever/NiggunDrive',
+        live: 'https://niggundrive.com',
+      },
+      techUsed: ['Apollo-GraphQL', 'PERN', 'TypeScript', 'tailwindCSS'],
       description:
         "Up, down, back and forth. Shuffle these cards, it's not a chore.",
     },
     {
-      title: "Quiz App",
+      title: 'Compound Interest Calculator',
       links: {
-        github: "https://github.com/Shriever/Quiz-App",
-        live: "https://quizapp.gatsbyjs.io/",
+        github: 'https://github.com/Shriever/Compound-interest-calculator',
+        live: 'https://shriever.github.io/Compound-interest-calculator/',
       },
-      techUsed: ["React", "Redux", "Material-UI"],
+      techUsed: ['TypeScript', 'React'],
       description:
-        "Interactive Q&A game that fetches data from two APIs. Get ready for some Chuck Norris action!",
-    },
-    {
-      title: "Compound Interest Calculator",
-      links: {
-        github: "https://github.com/Shriever/Compound-interest-calculator",
-        live: "https://shriever.github.io/Compound-interest-calculator/",
-      },
-      techUsed: ["TypeScript", "React"],
-      description:
-        "As the name suggests, this is a compound interest calculator. Great for projecting potential investment gains or determining the cost of a mortgage.",
+        'As the name suggests, this is a compound interest calculator. Great for projecting potential investment gains or determining the cost of a mortgage.',
     },
   ];
   return (

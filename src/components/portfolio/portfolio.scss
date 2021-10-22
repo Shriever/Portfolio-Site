@@ -19,16 +19,21 @@
     justify-content: space-evenly;
 
     .card {
+      margin: 7px 0;
       padding: 25px 23px;
       border-radius: 5%;
       height: 360px;
       width: 280px;
-      border: 1px solid #000;
+      // border: 1px solid #000;
       background-color: #fff;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      transition: 1s all ease-out;
+      transition: 0.5s all ease-out;
+
+      &:hover {
+        box-shadow: 1px 1px 6px 3px #ffffff ;
+      }
 
       .card-title {
         font-size: 23px;
