@@ -45,8 +45,8 @@ const Portfolio = () => {
               <h3 className='card-title'>{title}</h3>
               <p className='description'>{description}</p>
               <div className='links'>
-                <p className='tech-text'>{techUsed.join(" | ")}</p>
-                {links.live && (
+                <p className='tech-text'>{techUsed.join(' | ')}</p>
+                {links.live ? (
                   <a
                     target='_blank'
                     rel='noreferrer'
@@ -55,7 +55,7 @@ const Portfolio = () => {
                   >
                     Live Site
                   </a>
-                )}
+                ) : null}
                 <a
                   target='_blank'
                   rel='noreferrer'
