@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div id='portfolio' className='portfolio'>
+    <div className='portfolio'>
       <h1 className='portfolio-heading'>Projects</h1>
       <div className='container'>
         {projects.map((project, idx) => {
