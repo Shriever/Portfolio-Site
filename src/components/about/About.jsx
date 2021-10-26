@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './about.scss';
 
 const initialParagraphs = [
@@ -7,12 +7,11 @@ const initialParagraphs = [
 ];
 
 const About = () => {
-  const [paragraphs, setParagraphs] = useState(initialParagraphs);
   return (
     <div id='about' className='about'>
       <h2 className='header'>About Me</h2>
       <div className='about-body'>
-        {paragraphs.map((p, idx) => (
+        {initialParagraphs.map((p, idx) => (
           <p className='about-text' key={idx}>
             {p}
           </p>
