@@ -12,7 +12,7 @@ const About = () => {
       <h2 className='header'>About Me</h2>
       <div className='about-body'>
         {initialParagraphs.map((p, idx) => (
-          <p className='about-text' key={idx}>
+          <p data-testid='paragraph' className='about-text' key={idx}>
             {p}
           </p>
         ))}
