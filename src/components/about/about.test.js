@@ -8,4 +8,5 @@ test('should render static components', () => {
   expect(screen.getByText('About Me')).toBeInTheDocument();
 
   expect(screen.getAllByTestId('paragraph').length).toBe(2);
+  
 });

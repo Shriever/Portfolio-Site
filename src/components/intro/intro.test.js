@@ -6,4 +6,5 @@ test('should render static components', () => {
   const screen = render(<Intro />);
 
   expect(screen.getByText('Levi Lieberman')).toBeInTheDocument();
+  expect(screen.getByTestId('arrow')).toBeInTheDocument();
 });

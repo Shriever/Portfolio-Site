@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div id='intro' className='intro'>
       <h1 className='header'>Levi Lieberman</h1>
-      <a href='#portfolio'>
+      <a data-testid='arrow' href='#portfolio'>
         <KeyboardArrowDownIcon className='down-arrow' />
       </a>
     </div>
