@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.scss';
+import './about.scss'
 
 const initialParagraphs = [
   'My name is Levi Lieberman. I love learning about the web and how to solve problems with code. I think that the power of computers is vast and I am always searching out new ways to explore the world of technology.',
